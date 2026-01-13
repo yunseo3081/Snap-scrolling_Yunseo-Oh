@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    scroll-snap-align: start;
+}
+
+.pl {background: #f4f4f4;}
+.p2 {background: #000; color: white;}
+.p3 {background: #1e4bdf;}
